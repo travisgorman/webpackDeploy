@@ -1,10 +1,9 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var FirstClass = React.createClass({
+module.exports FirstClass = React.createClass({
     render: function() {
-        return <h1>This React app is definitely working!!!! Hello world!!!! I'm from the components/App.js file!</h1>;
+        return <h1>I FirstClass from components/App!</h1>;
     }
 });
 
-module.exports = FirstClass;
